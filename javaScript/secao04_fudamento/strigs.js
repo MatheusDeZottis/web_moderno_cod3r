@@ -14,6 +14,7 @@ console.log(escola.substring(0, 3))
 
 console.log(escola.replace(3, 'e')) 
 
+
 console.log('Escola '.concat(escola).concat("!"))// contatenação de duas strings
 
 console.log('Ana,Maria,Pedro'.split(',')) // arair
