@@ -7,3 +7,10 @@ function teste(){
 }
 
 
+{
+    console.log(sera)
+}
+{
+    console.log(sera)
+
+}
