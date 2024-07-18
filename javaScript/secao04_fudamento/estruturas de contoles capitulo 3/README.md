@@ -8,4 +8,4 @@ Esta seção do curso é voltada para estruturas de controle. Veremos aqui estar
 - **Do/While**: Descubra a estrutura do/while, similar ao while, mas que garante a execução do bloco de código pelo menos uma vez.
 - **For**: Veja como usar o loop for para repetir um bloco de código um número específico de vezes.
 - **For...In**: Explore o loop for...in, ideal para iterar sobre as propriedades enumeráveis de um objeto.
-- **Break**: Aprenda a usar a instrução break para sair de um loop ou de uma switch case antes que ele termine normalmente.
+- **Break**: Aprenda a usar a instrução break para sair de um loop ou de uma switch case antes que ele termine normalmente. 
