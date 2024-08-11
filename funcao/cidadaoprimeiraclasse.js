@@ -30,7 +30,7 @@ function run(fun) {
 }
 run(function () { console.log('Executado')})
 
-// um função pode retornar/conter um função
+// um função pode retornar conter um função
 
 function soma (a, b) {
     return function (c) {
