@@ -19,6 +19,7 @@ const notasBaixas2 = notas.filter(function(notas){
     return notas < 7
 
 })
+ 
 
 console.log(notasBaixas2)
 
