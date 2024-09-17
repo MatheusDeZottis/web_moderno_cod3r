@@ -7,7 +7,7 @@ function Carro (velocidadeDeMaxima = 200, delta = 5) {
         velocidadeAtual += delta
         
     } else{
-        velocidadeAtual = velocidadeDeMaxima
+        velocidadeAtual = velocidadeDeMaximag
     }
    }
    
@@ -17,3 +17,14 @@ function Carro (velocidadeDeMaxima = 200, delta = 5) {
    }
    }
  
+ const uno = new Carro
+ uno.acelerar()
+ console.log(uno.getVelocidadeAtual())
+
+ const ferrari = new Carro(350, 20)
+ ferrari.acelerar()
+ ferrari.acelerar()
+ ferrari.acelerar()
+
+
+console.log(ferrari.getVelocidadeAtual())
