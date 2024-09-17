@@ -28,3 +28,6 @@ function Carro (velocidadeDeMaxima = 200, delta = 5) {
 
 
 console.log(ferrari.getVelocidadeAtual())
+
+console.log(typeof Carro)
+console.log(typeof ferrari)
