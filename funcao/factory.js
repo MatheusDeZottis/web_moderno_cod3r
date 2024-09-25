@@ -5,7 +5,7 @@
 
 
 // factory simples
-
+/* 
 function criarPessoa(){
     return {
         nome: 'ana',
@@ -13,4 +13,7 @@ function criarPessoa(){
     }
 }
 
-console.log(criarPessoa())
+console.log(criarPessoa()) */
+ 
+
+
