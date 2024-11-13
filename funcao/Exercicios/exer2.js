@@ -4,5 +4,19 @@ Crie uma função que recebe os comprimentos dos três lados de um triângulo e 
 ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um
 triângulo). */
 
+function Triangulo(lado1, lado2, lado3) {
+    if (lado1 === lado2 && lado2 === lado3) {
+        return "Equilátero"
+    } else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
+        return "Isósceles"
+    } else {
+        return "Escaleno"
+    }
+}
+
+
+console.log(Triangulo(3, 3, 3)) 
+console.log(Triangulo(3, 3, 2)) 
+console.log(Triangulo(3, 4, 5)) 
 
 
